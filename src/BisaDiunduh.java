@@ -1,0 +1,3 @@
+interface BisaDiunduh {
+    String linkUnduh();
+}

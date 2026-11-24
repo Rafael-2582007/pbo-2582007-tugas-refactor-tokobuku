@@ -1,0 +1,3 @@
+interface BisaDikirim {
+    int getBeratGram();
+}

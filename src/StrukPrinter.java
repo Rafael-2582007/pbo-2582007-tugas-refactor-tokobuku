@@ -15,10 +15,8 @@ class StrukPrinter {
         System.out.println("Berat kiriman : " + keranjang.totalBeratKirim() + " gram");
 
         System.out.println("-------------- LINK UNDUH ---------------");
-        for (Buku b : keranjang.getIsi()) {
-            if (!b.jenis.equals("CETAK")) {
-                System.out.println(b.linkUnduh());
-            }
+        for (BisaDiunduh d : keranjang.getDiunduh()) {
+            System.out.println(d.linkUnduh());
         }
         System.out.println("-----------------------------------------");
     }
